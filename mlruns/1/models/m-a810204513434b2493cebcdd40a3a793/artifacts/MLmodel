@@ -1,0 +1,23 @@
+artifact_path: /Users/bhupendk/DMML/team13_project/mlruns/1/models/m-a810204513434b2493cebcdd40a3a793/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.12.0
+model_id: m-a810204513434b2493cebcdd40a3a793
+model_size_bytes: 17803064
+model_uuid: m-a810204513434b2493cebcdd40a3a793
+prompts: null
+run_id: aed1e7f8a591460da74fb74b4bfa22d6
+utc_time_created: '2026-05-14 09:48:41.675701'
